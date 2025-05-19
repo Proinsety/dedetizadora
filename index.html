@@ -1,0 +1,143 @@
+<!-- Landing page – Proinsety Detetizadora – Araucária/PR -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dedetização em Araucária | Proinsety</title>
+<style>
+:root{
+  --prim:#32cd32;      /* verde-limão */
+  --dark:#333333;      /* cinza escuro */
+  --light:#f7f7f7;
+  --radius:8px;
+  font-family:"Inter",Arial,Helvetica,sans-serif;
+}
+body{margin:0;background:#fff;color:var(--dark);line-height:1.45}
+section{padding:3rem 1rem;max-width:1200px;margin:auto}
+h1,h2,h3{margin:0 0 1rem;font-weight:700;color:var(--dark)}
+h1{font-size:2rem} h2{font-size:1.5rem} h3{font-size:1.25rem}
+p{margin:0 0 1rem}
+.btn{display:inline-block;background:var(--prim);color:#fff;
+  padding:.75rem 1.5rem;border-radius:var(--radius);text-decoration:none;
+  font-weight:700}
+.badge{display:inline-block;background:#fff;border:2px solid var(--prim);
+  color:var(--prim);padding:.25rem .75rem;border-radius:var(--radius);
+  font-size:.875rem;font-weight:700;margin-left:.5rem}
+.flex{display:flex;flex-wrap:wrap;gap:1.5rem;align-items:center}
+.card{background:var(--light);padding:1rem;border-radius:var(--radius);flex:1}
+ul{padding-left:1.2rem;margin:0 0 1rem}
+li{margin:.25rem 0}
+footer{background:var(--dark);color:#fff;padding:2rem 1rem;font-size:.875rem}
+footer a{color:#fff;text-decoration:underline}
+form{display:grid;gap:.75rem;margin-top:1rem}
+input,select,button{padding:.75rem;border:1px solid #ccc;border-radius:var(--radius);font-size:1rem}
+button[type=submit]{background:var(--prim);color:#fff;border:none;font-weight:700;cursor:pointer}
+@media(min-width:700px){
+  .hero{flex-wrap:nowrap}
+  .three-cols>.card{flex:1 1 calc(33% - 1rem)}
+}
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero flex">
+  <div style="flex:1">
+    <h1>Dedetização em Araucária com Garantia de 90&nbsp;Dias</h1>
+    <p>Elimine baratas, ratos, cupins e outras pragas com segurança <br>— atendimento 24 h e equipe certificada.</p>
+    <a href="#form-bottom" class="btn">Quero Orçamento Gratuito</a>
+    <span class="badge">Atendimento 24 h&nbsp;|&nbsp;Garantia 90 Dias</span>
+  </div>
+  <!-- Substitua pelo heroshot -->
+  <div style="flex:1;text-align:center"><!-- <img src="hero.jpg" alt="Técnico dedetizando" style="max-width:100%"> --></div>
+</section>
+
+<!-- PROVA SOCIAL -->
+<section>
+  <h2>O que dizem nossos clientes</h2>
+  <div class="flex">
+    <div class="card">⭐⭐⭐⭐⭐<br>“Em menos de um dia não vi mais formigas.”<br><b>Márcia – Iguaçu</b></div>
+    <div class="card">⭐⭐⭐⭐⭐<br>“Acabaram com o cupim do meu armário.”<br><b>João – Costeira</b></div>
+    <div class="card">⭐⭐⭐⭐⭐<br>“Produto sem cheiro, pets seguros.”<br><b>Carlos – Centro</b></div>
+  </div>
+  <!-- <div class="flex" style="justify-content:center;gap:2rem"><img src="anvisa.svg" alt="ANVISA"><img src="iso.svg" alt="ISO"></div> -->
+</section>
+
+<!-- COMO FUNCIONA -->
+<section>
+  <h2>Como funciona</h2>
+  <div class="flex three-cols">
+    <div class="card"><h3>1. Solicite a Visita</h3><p>Agende online ou WhatsApp.</p></div>
+    <div class="card"><h3>2. Inspeção Gratuita</h3><p>Diagnóstico preciso no local.</p></div>
+    <div class="card"><h3>3. Serviço + Garantia</h3><p>Aplicação rápida e garantia de 90 dias.</p></div>
+  </div>
+</section>
+
+<!-- BENEFÍCIOS -->
+<section style="background:var(--light)">
+  <h2>Por que escolher a Proinsety?</h2>
+  <ul>
+    <li>Produtos biodegradáveis e seguros para crianças e pets.</li>
+    <li>Técnicos uniformizados e licenciados.</li>
+    <li>Pagamento facilitado em até 3× sem juros.</li>
+  </ul>
+</section>
+
+<!-- PRAGAS -->
+<section>
+  <h2>Pragas que eliminamos</h2>
+  <p>Baratas • Ratos • Cupins • Formigas • Pulgas • Mosquitos • Escorpiões</p>
+  <!-- <div class="flex" style="justify-content:center"><img src="barata.svg"><img src="rato.svg"> … </div> -->
+</section>
+
+<!-- FAQ -->
+<section style="background:var(--light)">
+  <h2>Perguntas frequentes</h2>
+  <ul>
+    <li><b>Preciso sair de casa?</b> Normalmente não; usamos produtos sem odor.</li>
+    <li><b>Quanto tempo dura?</b> Entre 1 h e 3 h, conforme a área.</li>
+    <li><b>Reaplicação na garantia?</b> Sim, até 90 dias.</li>
+    <li><b>O produto mancha?</b> Não. Fórmulas neutras.</li>
+    <li><b>Atendimento noturno?</b> Plantão 24 h via WhatsApp.</li>
+  </ul>
+</section>
+
+<!-- URGÊNCIA + FORM -->
+<section style="text-align:center">
+  <h2 style="color:#e63946">⚠️ Vagas para esta semana: 4 inspeções gratuitas restantes!</h2>
+  <a href="#form-bottom" class="btn">Agendar Agora</a>
+</section>
+
+<!-- FORMULÁRIO (repetição final) -->
+<section id="form-bottom" style="background:var(--light)">
+  <h2>Solicite seu Orçamento Gratuito</h2>
+  <form>
+    <input type="text" name="nome" placeholder="Nome" required>
+    <input type="tel" name="telefone" placeholder="Telefone/WhatsApp" required>
+    <input type="email" name="email" placeholder="E-mail" required>
+    <select name="praga">
+      <option value="" disabled selected>Tipo de praga</option>
+      <option>Baratas</option><option>Ratos</option><option>Cupins</option>
+      <option>Formigas</option><option>Pulgas</option><option>Outra</option>
+    </select>
+    <button type="submit">Receber Orçamento</button>
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p><b>PROINSETY Detetizadora & Cia.</b><br>
+    Rua Crisantemo, 1644 – Campina da Barra, Araucária-PR – CEP 83709-580<br>
+    Tel.: (41) 3643-0004 | WhatsApp (41) 3642-9122<br>
+    centralproinsety@proinsety.com.br
+  </p>
+  <p>
+    <a href="https://facebook.com/Proinsety" target="_blank">Facebook</a> |
+    <a href="#lgpd">Política de Privacidade (LGPD)</a>
+  </p>
+  <p>&copy; 2025 Proinsety – Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
