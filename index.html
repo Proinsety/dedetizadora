@@ -113,16 +113,26 @@ button[type=submit]{background:var(--prim);color:#fff;border:none;font-weight:70
 <section id="form-bottom" style="background:var(--light)">
   <h2>Solicite seu Orçamento Gratuito</h2>
   <form>
-    <input type="text" name="nome" placeholder="Nome" required>
-    <input type="tel" name="telefone" placeholder="Telefone/WhatsApp" required>
-    <input type="email" name="email" placeholder="E-mail" required>
-    <select name="praga">
-      <option value="" disabled selected>Tipo de praga</option>
-      <option>Baratas</option><option>Ratos</option><option>Cupins</option>
-      <option>Formigas</option><option>Pulgas</option><option>Outra</option>
+   <form action="https://getform.io/f/bmdmkeza" method="POST">
+    <input type="text" name="name">
+    <input type="email" name="email">
+    <input type="text" name="message">
+    <!-- add hidden Honeypot input to prevent spams -->
+    <input type="hidden" name="_gotcha" style="display:none !important">
+    <!-- checkbox handle -->
+    <input type="checkbox" name="subscribe" value="yes" checked>
+    <input type="hidden" name="subscribe" value="no">
+    <!-- radio button handle -->
+    <input type="radio" name="gender" value="male" checked>
+    <input type="radio" name="gender" value="female">
+    <input type="radio" name="gender" value="other">
+    <!-- select field handle -->
+    <select name="work-experience">
+        <option value="one-year">0-1 years</option>
+        <option value="one-five-years">1-5 years</option>
     </select>
-    <button type="submit">Receber Orçamento</button>
-  </form>
+    <button type="submit">Send</button>
+</form>
 </section>
 
 <!-- FOOTER -->
